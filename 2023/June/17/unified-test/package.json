@@ -1,0 +1,29 @@
+{
+  "name": "unified-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup index.js -o dist/bundle.js --format umd",
+    "es": "rollup index.js -o dist/bundle.js --format es"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@jsdevtools/rehype-toc": "^3.0.2",
+    "highlight.js": "^11.8.0",
+    "rehype-highlight": "^6.0.0",
+    "rehype-slug": "^5.1.0",
+    "rehype-stringify": "^9.0.3",
+    "remark": "^14.0.3",
+    "remark-parse": "^10.0.2",
+    "remark-rehype": "^10.1.0",
+    "remark-stringify": "^10.0.3",
+    "rollup": "^3.25.1",
+    "unified": "^10.1.2",
+    "vite": "^4.3.9"
+  }
+}

@@ -1,0 +1,12 @@
+
+.flexWrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    background-color: red;
+}
+
+.flex {
+    display: block;
+}
